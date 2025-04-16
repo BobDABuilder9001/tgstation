@@ -52,6 +52,13 @@
 	name = "\improper Bar Backroom"
 	icon_state = "bar_backroom"
 
+/area/station/service/food_court
+	name = "\improper Food Court"
+	icon_state = "food_court"
+	mood_bonus = 5
+	mood_message = "A nice place to eat and drink!"
+	mood_trait = TRAIT_EXTROVERT
+
 /*
 * Entertainment/Library Areas
 */
