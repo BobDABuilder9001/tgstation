@@ -8,7 +8,7 @@
 	content_overlays = FALSE
 	drop_sound = 'sound/items/handling/toolbelt_drop.ogg'
 	pickup_sound = 'sound/items/handling/toolbelt_pickup.ogg'
-	storage_type = /datum/storage/unfathomable_curio_belt
+	storage_type = /datum/storage/unfathomable_curio
 
 	//Vars used for the shield component
 	var/heretic_shield_icon = "unfathomable_shield"
@@ -57,8 +57,6 @@
 /obj/item/storage/belt/unfathomable_curio/proc/shield_damaged(mob/living/carbon/wearer, attack_text, new_current_charges)
 	var/list/brain_traumas = list(
 		/datum/brain_trauma/severe/mute,
-		/datum/brain_trauma/severe/flesh_desire,
-		/datum/brain_trauma/severe/eldritch_beauty,
 		/datum/brain_trauma/severe/paralysis,
 		/datum/brain_trauma/severe/monophobia
 	)
