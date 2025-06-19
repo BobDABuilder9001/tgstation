@@ -74,3 +74,6 @@ endmap
 
 map maintstation
 endmap
+
+map loopstation
+endmap
