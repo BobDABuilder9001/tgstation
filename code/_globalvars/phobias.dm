@@ -465,6 +465,7 @@ GLOBAL_LIST_INIT(phobia_objs, list(
 		/obj/item/storage/wallet,
 		/obj/item/storage/backpack/satchel/flat,
 		/obj/item/food/powercrepe,
+		/obj/item/card/id/advanced/gold/captains_spare,
 
 	)),
 	"robots" = typecacheof(list(
